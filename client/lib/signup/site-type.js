@@ -20,7 +20,7 @@ export const allSiteTypes = [
 		slug: 'blog',
 		icon: 'blogger-bundle',
 		label: i18n.translate( 'Blog' ),
-		description: i18n.translate( 'Share and discuss ideas, updates, or creations.' ),
+		description: i18n.translate( 'Share and discuss ideas and updates.' ),
 		theme: 'pub/independent-publisher-2',
 		designType: 'blog',
 		siteTitleLabel: i18n.translate( 'What would you like to call your blog?' ),
@@ -31,7 +31,7 @@ export const allSiteTypes = [
 	{
 		id: 1,
 		slug: 'business',
-		icon: 'personal-bundle',
+		icon: 'business-bundle',
 		label: i18n.translate( 'Business' ),
 		description: i18n.translate( 'Promote products and services.' ),
 		theme: 'pub/professional-business',
@@ -45,6 +45,7 @@ export const allSiteTypes = [
 	{
 		id: 3,
 		slug: 'professional',
+		icon: 'personal-bundle',
 		label: i18n.translate( 'Professional' ),
 		description: i18n.translate( 'Showcase your portfolio and work.' ),
 		theme: 'pub/altofocus',
@@ -57,6 +58,7 @@ export const allSiteTypes = [
 	{
 		id: 4,
 		slug: 'education',
+		icon: 'premium-bundle',
 		label: i18n.translate( 'Education' ),
 		description: i18n.translate( 'Share school projects and class info.' ),
 		theme: 'pub/twentyfifteen',
@@ -69,6 +71,7 @@ export const allSiteTypes = [
 	{
 		id: 5,
 		slug: 'online-store',
+		icon: 'ecommerce-bundle',
 		label: i18n.translate( 'Online store' ),
 		description: i18n.translate( 'Sell your collection of products online.' ),
 		theme: 'pub/dara',
