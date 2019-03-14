@@ -18,6 +18,7 @@ export const allSiteTypes = [
 	{
 		id: 2,
 		slug: 'blog',
+		icon: 'blogger-bundle',
 		label: i18n.translate( 'Blog' ),
 		description: i18n.translate( 'Share and discuss ideas, updates, or creations.' ),
 		theme: 'pub/independent-publisher-2',
@@ -30,6 +31,7 @@ export const allSiteTypes = [
 	{
 		id: 1,
 		slug: 'business',
+		icon: 'personal-bundle',
 		label: i18n.translate( 'Business' ),
 		description: i18n.translate( 'Promote products and services.' ),
 		theme: 'pub/professional-business',
