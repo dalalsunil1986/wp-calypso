@@ -40,27 +40,6 @@ const config = {
 			},
 		],
 	],
-	overrides: [
-		{
-			test: [ './client/gutenberg/extensions', './packages/jetpack-blocks' ],
-			plugins: [
-				[
-					'@wordpress/import-jsx-pragma',
-					{
-						scopeVariable: 'createElement',
-						source: '@wordpress/element',
-						isDefault: false,
-					},
-				],
-				[
-					'@babel/transform-react-jsx',
-					{
-						pragma: 'createElement',
-					},
-				],
-			],
-		},
-	],
 	env: {
 		build_pot: {
 			plugins: [
